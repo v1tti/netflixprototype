@@ -87,8 +87,8 @@ export function Home() {
  //     headers: {
  //       accept: "application/json",
  //       Authorization:
- //         "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNDUwMjQ2MTM0ZDNlNzdjMTUxMTc5N2FkODNhNTc1YiIsIm5iZiI6MTcyMzczNTYxMy4yNDUxMiwic3ViIjoiNjZiZTFkODM2ZGUwMDdiNDg5NTBjNmJkIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.MR7WGvYrm30NeUrznvB2o-btg2HVLFAuQqulXliWR00",
- //     },
+ //         "Bearer use token here
+  //     },
  //   };
 //
  //   fetch(
