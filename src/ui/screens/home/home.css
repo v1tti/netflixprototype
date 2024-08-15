@@ -1,0 +1,103 @@
+.home-container {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.home-header-holder {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.home-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  font-size: 24px;
+}
+.home-header-logo-and-options-holder {
+  display: flex;
+  gap: 1rem;
+}
+.home-header-logo {
+  width: 150px;
+}
+.home-header a {
+  cursor: pointer;
+}
+.movie-holder {
+  position: relative;
+}
+.movie-details {
+  width: 30%;
+  padding-left: 2rem;
+}
+.movie-options {
+  z-index: 3;
+  position: relative;
+  gap: 5px;
+  display: flex;
+}
+.play-movie-button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  width: 30%;
+}
+.my-list-button {
+  border-radius: 5px;
+  width: 40%;
+  min-width: 66px;
+  border: none;
+  color: white;
+  background-color: rgb(85, 83, 83);
+}
+.movie-description {
+  position: relative;
+  z-index: 3;
+  color: white;
+  max-height: 90px;
+  overflow-y: scroll;
+}
+.movie-description::-webkit-scrollbar{
+  display: none;
+}
+.movie-title {
+  position: relative;
+  z-index: 3;
+  color: white;
+}
+.movie-cover {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  max-width: 100dvw;
+  max-height: 60dvh;
+  min-height: 315px;
+}
+.home-carousel-holder{
+  position: relative;
+  z-index: 5;
+  color: white;
+}
+.home-carousel{
+  height: 112.27px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 6;
+  overflow-x: scroll;
+}
+.home-carousel::-webkit-scrollbar{
+  display: none;
+}
+
+.small-cover {
+  width: 80px;
+  position: relative;
+  z-index: 3;
+}
